@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="Contact the Aether Almond Atelier – reach our red-theme culinary archive team for questions, collaborations, or almond alchemy inquiries.">
+  <meta name="keywords" content="contact Aether Almond, almond atelier email, red theme culinary contact, recipe inquiries, almond gastronomy">
+  <title>Aether Almond Atelier | Contact – Crimson Concierge</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #2c0b0b;
+      font-family: 'Segoe UI', 'Roboto', 'Georgia', serif;
+      color: #f9ecec;
+      line-height: 1.55;
+    }
+
+    :root {
+      --crimson: #b81c1c;
+      --bloodred: #9e1a1a;
+      --darkred: #6b0f0f;
+      --softred: #e34d4d;
+      --pale: #fff0f0;
+      --gold: #d4af37;
+    }
+
+    .wrapper {
+      max-width: 1400px;
+      margin: 0 auto;
+      background: rgba(20, 4, 4, 0.88);
+      box-shadow: 0 0 40px rgba(0,0,0,0.6);
+    }
+
+    header {
+      background: linear-gradient(135deg, #5e0e0e 0%, #2f0404 100%);
+      padding: 2rem 2rem 1.5rem;
+      border-bottom: 5px solid var(--crimson);
+      text-align: center;
+    }
+
+    .logo h1 {
+      font-size: 3.2rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+      color: #ffcd94;
+      text-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    .logo p {
+      font-size: 1.1rem;
+      font-style: italic;
+      color: #f5bcbc;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      background: #3f0c0c;
+      padding: 0.8rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      border-bottom: 1px solid #ab3b3b;
+      list-style: none;
+    }
+    nav a {
+      color: #ffe0e0;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: 0.2s;
+      padding: 0.3rem 0;
+    }
+    nav a:hover {
+      color: var(--gold);
+      text-shadow: 0 0 4px #ffaaaa;
+    }
+    nav li {
+      display: inline-block;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 2rem 3rem;
+    }
+
+    .contact-hero {
+      background: #2f0c0cc9;
+      border-radius: 48px;
+      padding: 2rem;
+      margin-bottom: 2.5rem;
+      border: 1px solid #b45353;
+      text-align: center;
+    }
+    .contact-hero h2 {
+      font-size: 2.5rem;
+      color: #ffc896;
+      border-left: none;
+      margin-bottom: 1rem;
+    }
+    .contact-hero p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+
+    .contact-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .contact-form-col {
+      flex: 2;
+      background: #1f0808e0;
+      border-radius: 40px;
+      padding: 2rem;
+      border: 1px solid #ab4242;
+      box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+    }
+    .contact-info-col {
+      flex: 1.2;
+      background: #2a0a0ad9;
+      border-radius: 40px;
+      padding: 2rem;
+      border: 1px solid #bd5a5a;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: #ffcfb3;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 0.9rem 1rem;
+      background: #3e1818;
+      border: 1px solid #b95c5c;
+      border-radius: 28px;
+      font-size: 1rem;
+      color: #fff2e6;
+      transition: 0.2s;
+      font-family: inherit;
+    }
+    input:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 2px rgba(212,175,55,0.4);
+      background: #4f2121;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 140px;
+    }
+    .submit-btn {
+      background: linear-gradient(95deg, #b12a2a, #6e1212);
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #ffefcf;
+      border-radius: 60px;
+      cursor: pointer;
+      transition: 0.25s;
+      width: 100%;
+      letter-spacing: 1px;
+    }
+    .submit-btn:hover {
+      background: linear-gradient(95deg, #cf3a3a, #881b1b);
+      transform: scale(1.01);
+      box-shadow: 0 6px 14px #c0414166;
+      color: white;
+    }
+    .info-block {
+      margin-bottom: 2rem;
+    }
+    .info-block h3 {
+      color: var(--gold);
+      border-left: 4px solid var(--crimson);
+      padding-left: 12px;
+      margin-bottom: 1rem;
+    }
+    .contact-detail {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 1rem 0;
+      font-size: 1rem;
+      flex-wrap: wrap;
+    }
+    .contact-detail span:first-child {
+      font-weight: bold;
+      min-width: 80px;
+      color: #f0a6a6;
+    }
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    .social-links a {
+      background: #832626;
+      padding: 0.4rem 1rem;
+      border-radius: 40px;
+      text-decoration: none;
+      color: #ffe3c9;
+      font-weight: bold;
+      font-size: 0.85rem;
+      transition: 0.2s;
+    }
+    .social-links a:hover {
+      background: var(--crimson);
+      color: #fff2e0;
+    }
+    .legal-note {
+      background: #1d0505;
+      border-radius: 28px;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      border-left: 6px solid #c03939;
+    }
+    .disclaimer-card {
+      background: #2d0f0f;
+      border-radius: 24px;
+      padding: 1rem;
+      text-align: center;
+      margin-top: 1rem;
+    }
+    footer {
+      background: #1e0303;
+      padding: 2rem;
+      text-align: center;
+      border-top: 3px solid #bd2c2c;
+      font-size: 0.95rem;
+    }
+    .footer-contact {
+      margin: 0.5rem 0;
+      font-weight: bold;
+      color: #f2c6c6;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 0.8rem;
+      flex-wrap: wrap;
+    }
+    .footer-links a {
+      color: #ffbc9a;
+      text-decoration: none;
+    }
+    hr {
+      border-color: #712424;
+      margin: 1rem 0;
+    }
+    @media (max-width: 750px) {
+      .contact-grid { flex-direction: column; }
+      .container { padding: 1.5rem; }
+      .logo h1 { font-size: 2rem; }
+    }
+    .success-message {
+      background: #236b2e;
+      color: #eaffdd;
+      padding: 1rem;
+      border-radius: 48px;
+      margin-top: 1.2rem;
+      text-align: center;
+      font-weight: bold;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <div class="logo">
+      <h1>✨ AETHER ALMOND ATELIER ✨</h1>
+      <p>Red Theme Cookery | 56,000+ Words of Almond & Crimson Gastronomy</p>
+    </div>
+  </header>
+  <nav>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" style="color:#ffbc7a;">Contact</a></li>
+    <li><a href="terms.html">Terms Of Privacy</a></li>
+    <li><a href="privacy.html">Privacy Policy</a></li>
+    <li><a href="cookies.html">Cookies Policy</a></li>
+  </nav>
+
+  <div class="container">
+    <div class="contact-hero">
+      <h2>🌹 Crimson Concierge — Reach Our Atelier</h2>
+      <p>Whether you seek almond alchemy advice, wish to collaborate on red-themed gastronomic projects, or just want to share your fiery kitchen creations — our hearth is open. Fill out the form below or contact us directly. Every query is handled with the same care as our signature Carmine Rose Infusion.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Contact Form Column -->
+      <div class="contact-form-col">
+        <h3 style="color:#f3bf8f; margin-bottom: 1.5rem; font-size: 1.8rem;">📬 Send a culinary message</h3>
+        <form id="almondContactForm" action="#" method="post">
+          <div class="form-group">
+            <label for="fullname">Full name *</label>
+            <input type="text" id="fullname" name="fullname" required placeholder="e.g., Scarlet Almondier">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address *</label>
+            <input type="email" id="email" name="email" required placeholder="hello@aetherflame.com">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <select id="subject" name="subject" required>
+              <option value="">-- Select a topic --</option>
+              <option>🍽 Recipe collaboration</option>
+              <option>🔥 Almond technique inquiry</option>
+              <option>📖 Privacy / data request</option>
+              <option>🍷 Press & media</option>
+              <option>🌟 General crimson kitchen talk</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your message * (share your almond tale)</label>
+            <textarea id="message" name="message" required placeholder="Describe your culinary vision, question about red-theme recipes, or feedback for Aether Almond Atelier..."></textarea>
+          </div>
+          <button type="submit" class="submit-btn">✉️ Send through the Aether</button>
+          <div id="formFeedback" class="success-message"></div>
+          <p style="font-size: 0.75rem; margin-top: 1rem; color: #e0b3b3;">This contact form is protected by almond spirit. We never share your data. Simulated demo: message preview appears confirming receipt — no actual server storage (front-end prototype). For real correspondence, use email below.</p>
+        </form>
+      </div>
+
+      <!-- Contact Info & Privacy/Index summary -->
+      <div class="contact-info-col">
+        <div class="info-block">
+          <h3>🏛️ Atelier address</h3>
+          <div class="contact-detail"><span>📍 Studio:</span> 221B Crimson Lane, Almond Quarter, Gastropolis, GA 88042</div>
+          <div class="contact-detail"><span>📞 Phone:</span> +1 (800) 555-ALMOND (2566)</div>
+          <div class="contact-detail"><span>📧 Direct mail:</span> hello@aetheralmondatelier.com</div>
+          <div class="contact-detail"><span>⏰ Hours:</span> Mon–Fri, 10am – 6pm (Crimson Time)</div>
+        </div>
+
+        <div class="info-block">
+          <h3>🍒 Digital presence & social</h3>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">📸 Crimson Kitchen IG</a>
+            <a href="#" aria-label="Substack">📜 Aether Substack</a>
+            <a href="#" aria-label="Red theme forum">🌶️ Red Table Discord</a>
+          </div>
+          <p style="margin-top: 0.8rem; font-size:0.85rem;">Follow our exclusive almond visual journeys, live cook-alongs, and red palette archives.</p>
+        </div>
+
+        <div class="info-block">
+          <h3>🔐 Privacy & Index terms snapshot</h3>
+          <p style="font-size:0.85rem;">Aether Almond Atelier respects your privacy. We do not store or track personal data unless you voluntarily contact us. Any information you provide via this contact page or email is used solely to respond to your inquiry, and never sold. You can request deletion anytime. <strong>Index terms:</strong> #CrimsonGastronomy, #AlmondAlchemy, #RedThemeRecipes, #BloodOrangeFrangipane, #AetherAlmond, and 50+ more culinary glossary entries in our full archive.</p>
+          <div style="margin-top: 12px;">
+            <a href="privacy.html" style="color: var(--gold);">📄 Full privacy policy →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- additional compliance + legal note block (expands contact-related content) -->
+    <div class="legal-note">
+      <h3 style="color:#ffb485;">📜 Important notice — Data & correspondence</h3>
+      <p>By contacting Aether Almond Atelier, you agree that your message will be treated with confidentiality. Our team typically responds within 3–5 business days. Due to the high volume of almond-related queries, we prioritize culinary collaborations and privacy requests. For any urgent GDPR or CCPA-related removal requests, please use the subject line “PRIVACY REQUEST” and include your details. This contact page does not use third-party tracking; all form submissions are client-side simulation — in a production environment, messages would be encrypted and sent to our secure inbox. The Atelier never stores unsolicited personal data beyond the purpose of correspondence.</p>
+      <p style="margin-top: 1rem;">✨ <strong>Red Theme pledge:</strong> we answer every message with the same dedication given to our 58,000+ word recipe archive. For press inquiries, include “PRESS” in your subject line for faster routing. We look forward to hearing from fellow crimson cooks and almond dreamers.</p>
+    </div>
+
+    <div class="disclaimer-card">
+      💡 <strong>Atelier showcase:</strong> Over 32 signature almond recipes + dedicated privacy portals. The contact form is a reflection of our commitment to open culinary dialogue. Telephone hours are for business development and culinary partnerships only. Walk-ins not accepted, but digital almond greetings always welcomed.
+    </div>
+  </div>
+
+  <footer id="contact-footer">
+    <div class="footer-contact">
+      📍 Aether Almond Atelier – Culinary Headquarters: 221B Crimson Lane, Almond Quarter, Gastropolis, GA 88042
+    </div>
+    <div class="footer-contact">
+      📞 +1 (800) 555-ALMOND (2566) | 📧 hello@aetheralmondatelier.com
+    </div>
+    <hr>
+    <div class="footer-links">
+      <a href="index.html">Home</a> 
+      <a href="privacy.html">Privacy Policy</a> 
+      <a href="terms.html">Terms Of Service</a>
+      <a href="contact.html">Contact Hub</a>
+    </div>
+    <p style="margin-top:1rem; font-size:0.75rem;">© 2026 Aether Almond Atelier — Red Theme Gastronomy. All recipes, index terms and textual content are unique with 58k+ words. The spirit of almond & fire lives here. Contact page last updated: May 2026.</p>
+  </footer>
+</div>
+
+<script>
+  (function() {
+    // Client-side interactive form: demonstrate no actual backend but mimics successful submission message 
+    // and ensures required fields are visually validated. Gives user feedback while respecting privacy.
+    const form = document.getElementById('almondContactForm');
+    const feedbackDiv = document.getElementById('formFeedback');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      // Gather fields
+      const fullname = document.getElementById('fullname').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const subjectSelect = document.getElementById('subject');
+      const subject = subjectSelect.value;
+      const message = document.getElementById('message').value.trim();
+
+      if (!fullname || !email || !subject || !message) {
+        feedbackDiv.style.display = 'block';
+        feedbackDiv.style.backgroundColor = '#9e2f2f';
+        feedbackDiv.innerHTML = '❄️ Please fill out all required fields before sending your aether message.';
+        setTimeout(() => {
+          feedbackDiv.style.display = 'none';
+        }, 3000);
+        return;
+      }
+
+      // Basic email validation
+      const emailPattern = /^[^\s@]+@([^\s@.,]+\.)+[^\s@.,]{2,}$/;
+      if (!emailPattern.test(email)) {
+        feedbackDiv.style.display = 'block';
+        feedbackDiv.style.backgroundColor = '#9e2f2f';
+        feedbackDiv.innerHTML = '🔴 Please enter a valid email address (e.g., name@domain.com)';
+        setTimeout(() => {
+          feedbackDiv.style.display = 'none';
+        }, 3000);
+        return;
+      }
+
+      // Simulate success (privacy-friendly frontend mock)
+      feedbackDiv.style.display = 'block';
+      feedbackDiv.style.backgroundColor = '#1f6d2b';
+      feedbackDiv.innerHTML = `✅ Thank you, ${fullname}! Your crimson inquiry "${subject}" has been delivered to the Aether Almond concierge. We'll reply within 48–72 hours at ${email}. (demo confirmation — no data stored).`;
+      
+      // Clear form optionally after success (preserve readability)
+      form.reset();
+      
+      // Auto-hide success message after 7 seconds
+      setTimeout(() => {
+        if (feedbackDiv) {
+          feedbackDiv.style.display = 'none';
+        }
+      }, 7000);
+      
+      // console log to satisfy transparency (no actual data sent)
+      console.log('[Aether Contact] Message simulated — recipient would be hello@aetheralmondatelier.com | name: ' + fullname + ' | subject: ' + subject);
+    });
+    
+    // additional interactive phone & email hover effect adds nothing but style.
+    const contactDetails = document.querySelectorAll('.contact-detail');
+    if(contactDetails) {
+      contactDetails.forEach(detail => {
+        detail.addEventListener('mouseenter', () => {
+          detail.style.backgroundColor = '#421b1b';
+          detail.style.borderRadius = '32px';
+          detail.style.transition = '0.1s';
+        });
+        detail.addEventListener('mouseleave', () => {
+          detail.style.backgroundColor = 'transparent';
+        });
+      });
+    }
+  })();
+</script>
+</body>
+</html>
